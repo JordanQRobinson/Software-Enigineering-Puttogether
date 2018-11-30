@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://robinsonj71-gator.visualstudio.com/_git/Software-Put-Together
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "Code"]
+	remote = origin
+	merge = refs/heads/Code
